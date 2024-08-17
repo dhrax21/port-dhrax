@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       className="h-screen flex flex-col custom-blue-gradient justify-center items-center bg-cover bg-center text-white">
-      <div className="bg-black bg-opacity-50 p-8 rounded-lg">
+      <div className="bg-white bg-opacity-15 p-8 rounded-lg">
         <motion.h1 className="text-5xl md:text-7xl font-bold"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
